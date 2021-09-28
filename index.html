@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Counter | Codersuresh</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="title">Character Counter</h1>
+        <p class="desc">Character counter to limit your audience from writing very long message to you.</p>
+        <textarea maxlength="160" oninput="countCharacter()" rows="5" placeholder="You message here" id="input"></textarea>
+        <p id="counter">You have written 0 character. Remaining 160 characters.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
